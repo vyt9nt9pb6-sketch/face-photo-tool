@@ -102,7 +102,11 @@ fp_core.py          公共能力：模型管理/遍历/指纹/聚类/安全移�
 find_person.py      人像检索 + 画质去重
 dedupe_photos.py    全盘查重
 download_models.py  模型下载
+video_dedupe/       视频查重工具（同一套「只移动不删除 + 清单可还原」策略）
 ```
+
+视频查重单独放在 [`video_dedupe/`](video_dedupe/README.md)：体积+采样哈希 → 全量 MD5 → 时间轴抽帧画面比对，
+三层判重，按画质留一份，其余移位并生成可还原清单。
 
 ## 许可
 
