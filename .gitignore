@@ -1,0 +1,11 @@
+models/
+_fpwork/
+_dupwork/
+crops/
+*.onnx
+*.jsonl
+*.npz
+_ref_aligned.jpg
+ref_aligned.jpg
+__pycache__/
+*.pyc
